@@ -6,7 +6,11 @@ gem 'rails', '3.2.1'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-
+gem 'autotest-standalone', :require => 'autotest' 
+gem 'autotest-rails-pure' 
+gem 'term-ansicolor'
+gem 'spork', '0.9.0'
+ 
 group :development do
   gem 'rspec-rails', '2.6.1'
 end
